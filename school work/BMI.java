@@ -20,11 +20,12 @@ static java.util.Scanner input = new java.util.Scanner(System.in);
 		double tinggi = input.nextDouble();
 		
 		//kira BMI yang betul
-		double tinggi2 = tinggi * tinggi;
-		double BMI = berat / tinggi2;
+		//double tinggi2 = tinggi * tinggi;
+		//double BMI = berat / tinggi2;
 		
 		//kira BMI yang asal salah
-		//double BMI = berat / tinggi * tinggi;
+		double BMI = berat / (tinggi * tinggi);
+		// lupe letak () F
 		
 		//papar
 		System.out.print("BMI anda ialah: "+BMI);
